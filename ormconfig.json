@@ -1,0 +1,19 @@
+{
+    "type": "postgres",
+    "host": "Your Host",
+    "port": "Your Port",
+    "username": "Your Username",
+    "password": "Your pass",
+    "database": "crud",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/app/models/*.ts"
+    ],
+    "migrations": [
+        "src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+}
